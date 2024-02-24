@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="favourite.html" id="fav" target="_blank">Favourites</a>
+    <div id="search-container">
+        <input type="text" placeholder="Enter superhero name">
+        <button id="search" onclick="fetchData()">Search</button>
+    </div>
+    <div id="list">
+        <div id="d1"></div>
+        <div class="list-container">
+            <div class="description"></div>
+        </div>
+        
+    </div>
+    <script src="api.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

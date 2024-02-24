@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(173, 41, 41);
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+    font-family: cursive;
+}
+#card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin: 2%;
+}
+#card{
+    padding: 4%;
+    background-color: rgb(28, 25, 25);
+    border-radius: 40px;
+    text-align: center;
+    width: 20vw;
+    min-height: 30vh;
+    color: white;
+    font-family: cursive;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    box-shadow: 5px 5px 15px 5px rgb(39, 38, 42), -5px -5px 15px 5px rgb(39, 38, 42);
+}
+#card img{
+    border-radius: 40px;
+    width: 10em;
+    height: 10em;
+    position: relative;
+}
+h3{
+    border-radius: 40px;
+    background-color: darkcyan;
+    cursor: pointer;
+}
+h3:hover{
+    background-color: rgb(43, 169, 64);
+}

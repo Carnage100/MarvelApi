@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(173, 41, 41);
+    font-family:cursive;
+}
+#fav{
+    display: inline-block;
+    position: absolute;
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    left: 1%;
+    top: 1%;
+    font-family: cursive;
+    border-radius: 20px;
+    background-color:rgb(28, 25, 25);
+    padding: 1%;
+    box-shadow: 5px 5px 15px 5px rgb(39, 38, 42), -5px -5px 15px 5px rgb(39, 38, 42);
+}
+#search-container{
+    position: relative;
+    max-width: 40vw;
+    min-height: 10vh;
+    background-color: rgb(28, 25, 25);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    transform: translateX(70%);
+    box-shadow: 5px 5px 15px 5px rgb(39, 38, 42), -5px -5px 15px 5px rgb(39, 38, 42);
+}
+#d1{
+    position: absolute;
+    width: 30.8vw;
+    /* min-height: 90px; */
+    background-color: greenyellow;
+    z-index: 1;
+    top: -1.5%;
+    left: 22.5%;
+    border-radius: 40px;
+}
+#search-results{
+    padding: 0.5em;
+}
+.item:hover{
+    color: rgb(120, 114, 114);
+}
+#search-container input{
+    flex: 1;
+    outline: none;
+    border-radius: 40px;
+    padding: 3%;
+    border: none;
+    background-color: greenyellow;
+    margin-left: 4%;
+    font-size: 1em;
+    font-family: cursive;
+}
+#search-container button{
+    outline: none;
+    border: none;
+    background: rgb(43, 226, 107);
+    cursor: pointer;
+    padding: 3%;
+    border-radius: 40px;
+    margin-right: 4%;
+    font-size: 1em;
+    font-family: cursive;
+}
+#search-container button:hover{
+    background-color:darkcyan ;
+}
+#list{
+    background-color: rgb(36, 34, 34);
+    position: relative;
+    margin: 3%;
+    max-width: 60vw;
+    /* min-height: 60vh; */
+    border-radius: 20px;
+    padding: 1%;
+    left: 13%;
+    box-shadow: 5px 5px 15px 5px rgb(39, 38, 42), -5px -5px 15px 5px rgb(39, 38, 42);
+}
+#list .list-container{
+    margin: 4%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.list-container .img-container{
+    padding: 3%;
+    background-color: white;
+    border-radius: 50%;
+    height: 10em;
+    width:10em;
+}
+.list-container .img-container img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+}
+.description{
+    color: white;
+    position: relative;
+}
+.description a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 2em;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+span:hover{
+    background-color: lightgray;
+    color: black;
+}
